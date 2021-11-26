@@ -1,0 +1,70 @@
+{
+    "tiers": [{
+        "starter": {
+            "price": "€3",
+            "description": "Good place to start",
+            "reporting": [{
+                "detailed_reports": false,
+                "weekly_data_reports": true,
+                "create_your_own_reports": false
+            }],
+            "blog": [{
+                "create_your_own_blog": true,
+                "upload_images": false
+            }],
+            "file_storgae": [{
+                "upload_files": false,
+                "share_files_with_team": true,
+                "watch_videos": false
+            }],
+            "application_integration": [{
+                "install_new_apps": false,
+                "install_custom_apps": true
+            }]
+        },
+        "advanced": {
+            "price": "€10",
+            "description": "For the startup with more needsGood place to start",
+            "reporting": [{
+                "detailed_reports": true,
+                "weekly_data_reports": true,
+                "create_your_own_reports": true
+            }],
+            "blog": [{
+                "create_your_own_blog": true,
+                "upload_images": true
+            }],
+            "file_storgae": [{
+                "upload_files": true,
+                "share_files_with_team": true,
+                "watch_videos": false
+            }],
+            "application_integration": [{
+                "install_new_apps": true,
+                "install_custom_apps": false
+            }]
+        },
+        "enterprise": {
+            "price": "€100",
+            "description": "for big companies with big dreams",
+            "reporting": [{
+                "detailed_reports": true,
+                "weekly_data_reports": true,
+                "create_your_own_reports": true
+            }],
+            "blog": [{
+                "create_your_own_blog": true,
+                "upload_images": true
+            }],
+            "file_storgae": [{
+                "upload_files": false,
+                "share_files_with_team": true,
+                "watch_videos": false
+            }],
+            "application_integration": [{
+                "install_new_apps": true,
+                "install_custom_apps": false
+            }]
+        }
+    }]
+}
